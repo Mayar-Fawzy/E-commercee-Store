@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("../src/assets/imges/banner.jpeg");
+  font-family: "Tajawal", system-ui;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7254901961);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=styles.css.map */
