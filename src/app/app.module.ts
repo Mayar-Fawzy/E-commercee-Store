@@ -7,9 +7,9 @@ import { LoginComponent } from './Components/Auth/login/login.component';
 import { RegisterComponent } from './Components/Auth/register/register.component';
 import { ForgetPasswordComponent } from './Components/Auth/forget-password/forget-password.component';
 import { HttpClientModule } from '@angular/common/http';
-import { HomeComponent } from './Components/Auth/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NotfoundComponent } from './Components/Auth/notfound/notfound.component';
+import { NotfoundComponent } from './Components/notfound/notfound.component';
 
 @NgModule({
   declarations: [

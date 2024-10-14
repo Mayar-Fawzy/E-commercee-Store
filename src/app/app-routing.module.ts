@@ -3,9 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { ForgetPasswordComponent } from './Components/Auth/forget-password/forget-password.component';
 import { LoginComponent } from './Components/Auth/login/login.component';
 import { RegisterComponent } from './Components/Auth/register/register.component';
-import { HomeComponent } from './Components/Auth/home/home.component';
-import { AuthGuard } from './Components/Services/auth.guard';
-import { NotfoundComponent } from './Components/Auth/notfound/notfound.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AuthGuard } from './Guards/auth.guard';
+import { NotfoundComponent } from './Components/notfound/notfound.component';
 
 const routes: Routes = [
   {path:'' ,redirectTo:'login',pathMatch:'full'},
